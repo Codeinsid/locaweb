@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.box p{
+  font-size: 80px;
+  width: 330px;
+  height: 50px;
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  top: 56.5%;
+  left: 10%;
+  margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
+}
+
+.box h1{
+  font-size: 60px;
+  width: 330px;
+  height: 50px;
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  top: 35%;
+  left: 10.5%;
+  margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
+}
+
+.box {
+  border: 2px solid #8c91a3;
+  width: 33%;
+  height: 650px;
+  text-align: center;
+  margin: 35px;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.alert {
+  border: 2px solid #8c91a3;
+  position: relative;
+  border-width: 2px;
+  width: 60%;
+  height: 630px;
+  margin: 30px;
+  align-items: center;
+  text-align: center;
+  float: right;
+}
+
+.alert h1{
+  font-size: 100px;
+  height: 50px;
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
+}
+
+.alert p{
+  font-size: 80px;
+  height: 50px;
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
